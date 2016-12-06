@@ -131,4 +131,6 @@ This model is a formalization of the [PCDM Application Profile](https://github.c
   - For *based near*, the range of `foaf:based_near` is `foaf:SpatialThing`. Fix this!
   - Consider fixing *related url* to use `xsd:anyURI`.
   - Refactor `curation_concerns` to use `ActiveTriples::Schema` for cleaner overrides.
+    - Organize terms used for works/filesets pare down `works:FileSet`.
+
   
